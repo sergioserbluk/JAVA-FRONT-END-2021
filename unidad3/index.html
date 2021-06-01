@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/estilos.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+   
+    <title>Document</title>
+</head>
+<body>
+    
+    <h1 class="centrado">Alta de Usuarios</h1>
+    <br>
+    <!--bootstrap-->
+    <div class="cardusu" >
+    <div class="card" style="width: 18rem;" >
+        <div class="card-header">
+          Datos de Usuario
+        </div>
+        <ul class="list-group list-group-flush" >
+          <li class="list-group-item"><input type="text" name="nombre" id="nombre">Nombres</li>
+          <li class="list-group-item"> <input type="text" name="apellido" id="apellido">Apellido</li>
+          <li class="list-group-item"><input type="number" name="edad" id="edad">edad</li>
+          <!--<li class="list-group-item"> <input type="button" value="agregar" onclick="mayoriaEdad()"></li>
+          -->
+          <li class="list-group-item"> <input type="button" value="agregar" onclick="mayoriaEdadObjeto()"></li>
+          <li class="list-group-item" id="salida" >Nombres</li>
+        </ul>
+      </div>
+    </div>
+    <script src="./js/mayorDeEdad.js"></script>
+    <script src="./js/conobjeto.js"></script>
+</body>
+</html>
